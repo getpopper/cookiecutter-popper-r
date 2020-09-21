@@ -1,0 +1,15 @@
+---
+title: {{ cookiecutter['project name']}}
+
+authors:
+  - name: {{ cookiecutter['author(s)'] }}
+output: pdf_document
+
+bibliography: bibliography.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Abstract 
