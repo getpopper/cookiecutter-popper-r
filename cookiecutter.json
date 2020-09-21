@@ -1,0 +1,7 @@
+{
+    "project name": "",
+    "repo_name": "{{ cookiecutter['project name'].lower().replace(' ', '-') }}",
+    "authors(s)": "",
+    "description": "",
+    "paper format": ["LaTeX", "RMarkdown"]
+}
